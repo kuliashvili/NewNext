@@ -1,7 +1,7 @@
 function About(){
 
     return (
-        <div className="Home" >About page</div>
+        <div className="Home" >About passsssge</div>
     )
 }
 
