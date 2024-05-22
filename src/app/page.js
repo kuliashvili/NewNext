@@ -1,5 +1,6 @@
 "use client"; // This is a client component
 import { useState } from "react";
+import Link from "next/link"
 
 function Home() {
   const [show, setShow] = useState(true);
@@ -19,6 +20,7 @@ function Home() {
       <button onClick={() => { setCount(count + 1)}} >up</button>
       <button onClick={() => { setCount(count - 1)}} >down</button>
       <button onClick={() => { setCount(0)}} >reset</button>
+      <Link href="/about" >go to about page</Link>
     </>
   );
 }
