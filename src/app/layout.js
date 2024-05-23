@@ -4,6 +4,8 @@ export const metadata = {
 }
 import Header from "@/components/header/page"
 import Footer from "@/components/footer/page"
+import "../styles/globals.css"
+
 
 export default function RootLayout({ children }) {
   return (
